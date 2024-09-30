@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(120, 120, 226);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.password-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(78, 78, 145);
+        border: 3px solid rgb(146, 146, 219);
+        flex-direction: column;
+        width: 500px;
+        border-radius: 20px;
+        height:320px;
+}
+#pass-h1{
+    text-align: center;
+    color: white;
+}
+.check{
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    margin-bottom: 10px;
+}
+#pass {
+    width: 238px;
+    border-radius: 7px;
+    border: none;
+    height: 21px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #f0f0f0; 
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+#len{
+    width: 238px;
+    border-radius: 7px;
+    border: none;
+    height: 21px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+label{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input{
+    float:right;
+}
+#btn{
+    width: 68px;
+    background-color: rgb(146, 146, 235);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
